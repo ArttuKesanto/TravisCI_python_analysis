@@ -6,5 +6,5 @@ install:
 script: 
   - coverage run -m --source=. pytest
 after success:
-  - coverage report
-  - coverage report >> coverage.txt
+  - coverage report -m
+  - coverage report -m >> coverage.txt
