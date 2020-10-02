@@ -7,4 +7,3 @@ script:
   - coverage run -m --source=. pytest
 after_success:
   - coverage report -m
-  - coverage report -m >> coverage.txt
